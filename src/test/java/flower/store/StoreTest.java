@@ -4,8 +4,9 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
 class StoreTest {
-    int price = 13;
-    int priceb = 10;
+    private static final int price = 13;
+    private static final int pricei = 11;
+    private static final int priceb = 10;
     @Test
     public void testStore() {
         Store store = new Store();
@@ -21,9 +22,8 @@ class StoreTest {
         flll.setPrice(price);
         flll.setColor(FlowerColor.RED);
         store.add(flll);
-        Flower flwr = new Flower();
-        int pricee = price - 2;
-        flwr.setPrice(pricee);
+        Flower flwr = new Flower();;
+        flwr.setPrice(pricei);
         flwr.setColor(FlowerColor.RED);
         store.add(flwr);
         Flower flw = new Flower();

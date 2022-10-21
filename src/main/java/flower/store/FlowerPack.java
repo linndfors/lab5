@@ -8,7 +8,7 @@ public class FlowerPack {
         this.quantity = quantity;
     }
     public Flower getFlower() {
-        return flower;
+        return this.flower;
     }
 
     public void setFlower(Flower flower) {
@@ -16,7 +16,7 @@ public class FlowerPack {
     }
 
     public int getQuantity() {
-        return quantity;
+        return this.quantity;
     }
 
     public void setQuantity(int quantity) {
