@@ -22,7 +22,7 @@ class StoreTest {
         flll.setPrice(PRICE);
         flll.setColor(FlowerColor.RED);
         store.add(flll);
-        Flower flwr = new Flower();;
+        Flower flwr = new Flower();
         flwr.setPrice(PRICEI);
         flwr.setColor(FlowerColor.RED);
         store.add(flwr);
