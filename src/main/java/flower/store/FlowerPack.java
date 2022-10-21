@@ -11,16 +11,16 @@ public class FlowerPack {
         return this.flower;
     }
 
-    public void setFlower(Flower flower) {
-        this.flower = flower;
+    public void setFlower(Flower myFlower) {
+        this.flower = myFlower;
     }
 
     public int getQuantity() {
         return this.quantity;
     }
 
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
+    public void setQuantity(int myQuantity) {
+        this.quantity = myQuantity;
     }
     public double getPrice() {
         double sum = this.flower.getPrice() * this.quantity;
