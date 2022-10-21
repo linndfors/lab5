@@ -10,12 +10,13 @@ public class Store {
     public void add(Flower flower) {
         this.flowers.add(flower);
     }
-    public int search(Flower special_flower) {
+    public int search(Flower specialFlower) {
         int counter = 0;
         for (Flower flower:flowers) {
-            if (flower.getColor().equals(special_flower.getColor())) {
-                if (flower.getPrice() == special_flower.getPrice()) {
-                    if (flower.getSepalLength() == special_flower.getSepalLength()) {
+            if (flower.getColor().equals(specialFlower.getColor())) {
+                if (flower.getPrice() == specialFlower.getPrice()) {
+                    if (flower.getSepalLength() ==
+                            specialFlower.getSepalLength()) {
                         counter += 1;
                     }
                 }
