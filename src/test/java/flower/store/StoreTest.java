@@ -31,6 +31,9 @@ class StoreTest {
         fl6.setPrice(10);
         fl6.setColor(FlowerColor.BLUE);
         Assertions.assertEquals(store1.search(fl6), 0);
-
+        Flower fl5 = new Flower();
+        fl5.setPrice(13);
+        fl5.setColor(FlowerColor.BLUE);
+        Assertions.assertEquals(store1.search(fl5), 1);
     }
 }
