@@ -15,8 +15,8 @@ public class Store {
         for (Flower flower:flowers) {
             if (flower.getColor().equals(specialFlower.getColor())) {
                 if (flower.getPrice() == specialFlower.getPrice()) {
-                    if (flower.getSepalLength() ==
-                            specialFlower.getSepalLength()) {
+                    if (flower.getSepalLength()
+                           == specialFlower.getSepalLength()) {
                         counter += 1;
                     }
                 }
