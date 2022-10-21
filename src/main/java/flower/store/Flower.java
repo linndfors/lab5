@@ -10,13 +10,11 @@ public class Flower {
     @Getter
     private double sepalLength;
     private FlowerColor color;
-
+    private double price;
     public double getPrice() {
         return price;
     }
 
-    @Getter
-    private double price;
     @Getter
     private FlowerType flowerType;
 

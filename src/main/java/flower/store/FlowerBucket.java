@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class FlowerBucket {
     private ArrayList<FlowerPack> flowers;
-    private double whole_price;
+    private double wholeprice = 0;
     public FlowerBucket() {
         this.flowers = new ArrayList<>();
     }
@@ -13,8 +13,8 @@ public class FlowerBucket {
     }
     public double getPrice() {
         for (FlowerPack pack : flowers) {
-            whole_price += pack.getPrice();
+            wholeprice += pack.getPrice();
         }
-        return whole_price;
+        return wholeprice;
     }
 }
